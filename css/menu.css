@@ -1,0 +1,116 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: flex;
+    background-color: beige;
+    height: 70px;
+    border-top: 1px solid black;
+
+}
+
+
+/* left */
+.nav-left {
+    flex: 1;
+    text-align: left;
+    width: 100%;
+
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* center */
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5C6F2B;
+}
+
+.brand:hover {
+    color: black;
+}
+
+/* right */
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+.order {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+/* section2 */
+.section2 h1 {
+    font-size: 80px;
+    text-align: center;
+    padding: 60px 0px;
+    font-family: 'Erac ITC';
+}
+
+/* section3 */
+.section3 {
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+
+.section3 h1 {
+    font-family: 'Erac ITC';
+}
+
+.section3 .img {
+    background-color: #dad5d5;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section3 .img img {
+    width: 300px;
+
+}
+
+.section3 .btn {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background-color: yellow;
+}
+
+.section3row {
+    line-height: 6px;
+    color: #5C6F2B;
+}
+
+.section3 h2 {
+    font-weight: 350;
+}
+
+.section3 p {
+    font-weight: 340;
+}
+
+/* section4 */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.card {
+    
+  max-height: 80%;
+}
