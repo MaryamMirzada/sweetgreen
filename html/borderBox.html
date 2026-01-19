@@ -52,13 +52,13 @@
                 <div class="navbar">
 
                     <div class="nav-left">
-                        <span class="menu-icon">×</span>
+                        <span class="menu-icon" id="delet">×</span>
                     </div>
                     <div class="nav-center">
                         <a href="#" class="brand">sweetgreen</a>
                     </div>
                     <div class="nav-right">
-                        <a href="#" class="order">ORDER ➝</a>
+                        <a href="../html/menu.html" class="order">ORDER ➝</a>
                     </div>
 
                 </div>
@@ -67,42 +67,42 @@
         <section class="section00">
             <ol>
                 <li>
-                    <a href="">
+                    <a href="../html/menu.html">
                         <h1>
                             OUR MENU
                         </h1>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="../html/misson.html">
                         <h1>
                             OUR MISSION
                         </h1>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="../html/index.html">
                         <h1>
                             THE MARKET
                         </h1>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="../html/Outpost.html">
                         <h1>
                             OUTPOST
                         </h1>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="../html/Catering.html">
                         <h1>
                             CATERING
                         </h1>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="../html/index.html">
                         <h1>
                             LOCATIONS
                         </h1>
@@ -111,7 +111,12 @@
             </ol>
         </section>
     </div>
-
+<script>
+    const delet = document.getElementById('delet')
+    delet.addEventListener('click', () => {
+        window.location.href = 'index.html'
+    })
+</script>
 </body>
 
 </html>

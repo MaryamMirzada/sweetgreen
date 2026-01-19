@@ -1,12 +1,21 @@
+body {
+    overflow-x: hidden;
+}
+    .section1 {
+        padding: 10px 0 0 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+        background-color: #fff;
+    }
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: flex;
-    background-color: beige;
-    height: 70px;
-    border-top: 1px solid black;
-
 }
 
 
@@ -14,8 +23,6 @@
 .nav-left {
     flex: 1;
     text-align: left;
-    width: 100%;
-
 }
 
 .menu-icon {
@@ -30,10 +37,11 @@
 }
 
 .brand {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     color: #5C6F2B;
+    font-family: 'Eric ITC';
 }
 
 .brand:hover {
@@ -59,6 +67,11 @@
     text-align: center;
     padding: 60px 0px;
     font-family: 'Erac ITC';
+    color: white
+    }
+
+    .section2 {
+        background-color: #5C6F2B;
 }
 
 /* section3 */
@@ -108,9 +121,117 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
-}
+    text-align: center;
+    justify-content: center;
+    }
 
-.card {
-    
-  max-height: 80%;
-}
+    .cardbody {
+        height: 450px;
+        padding: 140px;
+        padding-bottom: 140px;
+        text-align: center;
+        border-radius: 20px;
+        background-color: red;
+    }
+
+    .firstCard {
+        background-color: rgb(192, 242, 225);
+        color: rgb(37, 168, 168);
+        font-family: 'Erac ITC';
+
+    }
+
+    .grid button {
+        background-color: #E4FF30;
+        padding: 10px;
+        border: none;
+        width: 200px;
+        border-radius: 20px;
+        color: black
+    }
+
+    .secondCard {
+        background-color: #DDAED3;
+        color: rgb(7, 7, 142);
+    }
+
+    .thirdCard {
+        background-color: #EDEDCE;
+        color: #0C2C55;
+    }
+
+    /* section */
+    .section7 .row .col {
+        border-right: 1px solid black;
+        padding: 50px 40px;
+        border-top: 1px solid black;
+    }
+
+    .margindiv {
+        margin-top: 10px;
+    }
+
+    .section7 .row .col h5 {
+        color: #444;
+    }
+
+    .section7 .row .col input {
+        width: 550px;
+        padding: 4px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #dad5d5;
+    }
+
+    .section7 .row .col input:hover {
+        background-color: #F6F3C2;
+        border: none;
+        outline: none;
+    }
+
+    .section7 .row .col h5 {
+        color: #0e0e0e;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .section7 .row .header h4 {
+        font-size: 25px;
+    }
+
+    .section7 .row .header h4 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .section7 .row .header h4 a:hover {
+        text-decoration: underline 2px solid;
+    }
+
+    /* section8 */
+    .footer {
+        background-color: #F6F3C2;
+        padding: 30px 0px 3px 30px;
+
+    }
+
+    .footer h5 {
+        font-size: 18px;
+        font-family: 'Bell MT';
+    }
+
+    .footer li {
+        list-style: none;
+        font-size: 17px;
+        font-family: 'Bell MT';
+    }
+
+    .footer li:hover {
+        text-decoration: underline solid 1px black;
+        cursor: pointer;
+    }
+
+ .list {
+     position: relative;
+     right: 30px;
+ }

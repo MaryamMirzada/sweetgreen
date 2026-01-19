@@ -1,0 +1,241 @@
+body {
+    overflow-x: hidden;
+}
+
+.section1 {
+    padding: 10px 10px 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background-color: #F6F3C2;
+    ;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+/* left */
+.nav-left {
+    flex: 1;
+    text-align: left;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* center */
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5C6F2B;
+    font-family: 'Eric ITC';
+}
+
+.brand:hover {
+    color: black;
+}
+
+/* right */
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+.order {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+/* section2 */
+.section2 {
+    background-color: rgb(192, 242, 225);
+}
+
+.section2 .fistcol {
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.section2 .fistcol h1 {
+    font-size: 80px;
+    line-height: 60px;
+    font-family: "Eric ITC";
+}
+
+.section2 button {
+    padding: 20px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+
+.section2 button:hover {
+    background-color: green;
+}
+
+/* section3 */
+.section3 {
+    text-align: left;
+    padding: 40px 80px;
+}
+
+.section3 h1 {
+    width: 80%;
+    font-family: "Eric ITC";
+    font-weight: bold;
+    padding: 60px;
+}
+
+/* section4 */
+.section4 {
+    background-color: rgb(192, 242, 225);
+}
+
+.section4 #col {
+    padding: 40px 10px;
+}
+
+.section4 #col * {
+    font-family: 'Eric ITC';
+}
+
+.section4 #col h1 {
+    font-size: 40px;
+    font-weight: bold
+}
+
+.section4 #col h4 {
+    font-weight: bold;
+}
+
+.section4 #col p {
+    width: 450px;
+    font-size: 20px;
+}
+
+.section4 #col a {
+    color: black;
+}
+
+.section4 #col button {
+
+    padding: 10px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 40px;
+    border: none;
+}
+
+/* section5 */
+.section5 {
+    width: 600px;
+    position: relative;
+    padding: 40px 10px;
+    left: 27%;
+}
+
+.section5 h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.section5 li {
+    font-weight: bold;
+}
+
+.section7 .row .col {
+    border-right: 1px solid black;
+    padding: 50px 40px;
+    border-top: 1px solid black;
+}
+
+.margindiv {
+    margin-top: 10px;
+}
+
+.section7 .row .col h5 {
+    color: #444;
+}
+
+.section7 .row .col input {
+    width: 550px;
+    padding: 4px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dad5d5;
+}
+
+.section7 .row .col input:hover {
+    background-color: #F6F3C2;
+    border: none;
+    outline: none;
+}
+
+.section7 .row .col h5 {
+    color: #0e0e0e;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section7 .row .header h4 {
+    font-size: 25px;
+}
+
+.section7 .row .header h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section7 .row .header h4 a:hover {
+    text-decoration: underline 2px solid;
+}
+
+/* section8 */
+.footer {
+    background-color: #F6F3C2;
+    padding: 30px 0px 3px 30px;
+
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-family: 'Bell MT';
+}
+
+.footer li {
+    list-style: none;
+    font-size: 17px;
+    font-family: 'Bell MT';
+}
+
+.footer li:hover {
+    text-decoration: underline solid 1px black;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    right: 30px;
+}

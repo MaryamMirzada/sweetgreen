@@ -1,0 +1,238 @@
+body {
+    overflow-x: hidden;
+}
+
+.section1 {
+    padding: 10px 10px 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background-color: #F6F3C2;
+    ;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+/* left */
+.nav-left {
+    flex: 1;
+    text-align: left;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* center */
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5C6F2B;
+    font-family: 'Eric ITC';
+}
+
+.brand:hover {
+    color: black;
+}
+
+/* right */
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+.order {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+/* section2 */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 60px 60px;
+    font-family: 'Erac ITC';
+}
+
+/* section3 */
+.section3 .col {
+    background-color: rgb(141, 187, 211);
+}
+
+.section3 .row .col h1 {
+    font-size: 62px;
+    padding: 10px 20px 0px 20px;
+    color: white;
+    font-family: "Eric ITC";
+}
+
+/* section4 */
+.section4 {
+    position: relative;
+    left: 120px;
+    padding: 100px 50px;
+
+
+}
+
+.section4 h1 {
+    text-align: left;
+    font-family: "Eric ITC";
+    font-size: 46px;
+    font-weight: bold;
+
+}
+
+.section4 .para {
+    position: relative;
+    width: 520px;
+    font-size: 15px;
+    left: 200px;
+}
+
+/* section5 */
+.section5 .card {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 440px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cardbody {
+    height: 450px;
+    padding: 140px;
+    padding-bottom: 140px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.firstCard {
+    background-color: rgb(192, 242, 225);
+    color: rgb(37, 168, 168);
+    font-family: 'Erac ITC';
+
+}
+
+.grid button {
+    background-color: #E4FF30;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+    color: white
+}
+
+.secondCard {
+    background-color: #DDAED3;
+    color: rgb(7, 7, 142);
+}
+
+.thirdCard {
+    background-color: #EDEDCE;
+    color: #0C2C55;
+}
+
+/* section */
+.section7 .row .col {
+    border-right: 1px solid black;
+    padding: 50px 40px;
+    border-top: 1px solid black;
+}
+
+.margindiv {
+    margin-top: 10px;
+}
+
+.section7 .row .col h5 {
+    color: #444;
+}
+
+.section7 .row .col input {
+    width: 550px;
+    padding: 4px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dad5d5;
+}
+
+.section7 .row .col input:hover {
+    background-color: #F6F3C2;
+    border: none;
+    outline: none;
+}
+
+.section7 .row .col h5 {
+    color: #0e0e0e;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section7 .row .header h4 {
+    font-size: 25px;
+}
+
+.section7 .row .header h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section7 .row .header h4 a:hover {
+    text-decoration: underline 2px solid;
+}
+
+/* section8 */
+.footer {
+    background-color: #F6F3C2;
+    padding: 30px 0px 3px 30px;
+
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-family: 'Bell MT';
+}
+
+.footer li {
+    list-style: none;
+    font-size: 17px;
+    font-family: 'Bell MT';
+}
+
+.footer li:hover {
+    text-decoration: underline solid 1px black;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    right: 30px;
+}

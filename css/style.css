@@ -13,8 +13,13 @@ body {
 
 .section1 {
     padding: 10px 0 0 0;
-    max-height: 10px;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+  background-color: #fff;
 }
 
 .navbar {
@@ -22,6 +27,8 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 /* left */
 .nav-left {
@@ -41,10 +48,11 @@ body {
 }
 
 .brand {
-    font-size: 24px;
+    font-size:40px;
     font-weight: bold;
     text-decoration: none;
     color: #5C6F2B;
+    font-family: 'Eric ITC';
 }
 .brand:hover {
     color: black;
@@ -220,6 +228,11 @@ body {
     margin-top: 80px;
     color: #c0bfbf;
 }
+.section3 .second-col {
+    position: relative;
+    right: 180px
+}
+
 
 .section3 h3 {
     font-size: 50px;
@@ -241,6 +254,10 @@ body {
 .section4 {
     margin-top: 20px;
     padding: 0px 30px;
+}
+.section4 .row .col a {
+    text-decoration: none;
+    color: green
 }
 
 .section4 .img {
@@ -308,13 +325,13 @@ body {
     /* section6 */
     .section6 {
         background-color: #8CE4FF;
-        max-height: 96%;
+height: 50%;
         border-bottom: 1px black solid;
     }
 
     .section6 video {
         padding-right: 0px;
-        width: 97%;
+        width: 98%;
         margin-left: 18px;
     }
 
@@ -331,14 +348,16 @@ body {
 
     .section6 .header p {
         font-size: 40px;
-        font-family: "Candara";
-        line-height: 30px;
+        font-family: "Eric ITC";
+        line-height: 40px;
+        padding-top: 40px;
+        width: 500px;
     }
 
     /* section7 */
     .section7 .row .col {
         border-right: 1px solid black;
-        padding: 10px 50px;
+        padding: 50px 40px;
     }
 
     .margindiv {
